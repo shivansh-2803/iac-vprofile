@@ -19,8 +19,8 @@ env:
   AWS_REGION: us-east-1
   EKS_CLUSTER: vprofile-eks
 
-  jobs:
-    terraform:
+jobs:
+      terraform:
       name: "Apply Terraform code changes"
       runs-on: ubuntu-latest
       default:
